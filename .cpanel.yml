@@ -3,3 +3,6 @@ deployment:
   tasks:
   - export DEPLOYPATH=/home/u1095225/public_html/Brother
   - /bin/cp -R application $DEPLOYPATH
+  - /bin/cp -R assets $DEPLOYPATH
+  - /bin/cp -R database $DEPLOYPATH
+  - /bin/cp -R system $DEPLOYPATH
