@@ -1,16 +1,16 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/u1095225/public_html/
- - /bin/cp -R application $DEPLOYPATH
- - /bin/cp -R assets $DEPLOYPATH
- - /bin/cp -R database $DEPLOYPATH
- - /bin/cp -R system $DEPLOYPATH
- - /bin/cp .editorconfig $DEPLOYPATH
- - /bin/cp .gitignore $DEPLOYPATH
- - /bin/cp .htaccess $DEPLOYPATH
- - /bin/cp contributing.md $DEPLOYPATH
- - /bin/cp index.php $DEPLOYPATH
- - /bin/cp license.txt $DEPLOYPATH
- - /bin/cp readme.md $DEPLOYPATH
- - /bin/cp readme.rst $DEPLOYPATH
+ -export DEPLOYPATH=/home/u1095225/public_html/
+ -/bin/cp -R application $DEPLOYPATH
+ -/bin/cp -R assets $DEPLOYPATH
+ -/bin/cp -R database $DEPLOYPATH
+ -/bin/cp -R system $DEPLOYPATH
+ -/bin/cp .editorconfig $DEPLOYPATH
+ -/bin/cp .gitignore $DEPLOYPATH
+ -/bin/cp .htaccess $DEPLOYPATH
+ -/bin/cp contributing.md $DEPLOYPATH
+ -/bin/cp index.php $DEPLOYPATH
+ -/bin/cp license.txt $DEPLOYPATH
+ -/bin/cp readme.md $DEPLOYPATH
+ -/bin/cp readme.rst $DEPLOYPATH
